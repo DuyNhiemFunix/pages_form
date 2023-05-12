@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Đăng Nhập</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .login-form {
+        width: 400px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 5px;
+      }
+
+      .login-form h2 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .login-form input[type="text"],
+      .login-form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      .login-form button {
+        width: 100%;
+        padding: 15px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 3px;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 15px 0;
+      }
+
+      .login-form button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./form_v2.html" style="margin-right: 20px">Form-v2</a>
+
+    <div class="login-form">
+      <h2>Đăng Nhập</h2>
+      <form>
+        <input type="text" placeholder="Tên đăng nhập" required />
+        <input type="password" placeholder="Mật khẩu" required />
+        <button type="submit">Đăng nhập</button>
+      </form>
+    </div>
+  </body>
+</html>
